@@ -1,6 +1,6 @@
 {
-  "name": "postcss-typography",
-  "version": "0.0.0",
+  "name": "postcss-typography-js",
+  "version": "1.0.0",
   "description": "PostCSS plugin for typography.js",
   "keywords": [
     "postcss",
@@ -11,11 +11,11 @@
   ],
   "author": "Mochamad Taufan Rezzafri <rezzafri@gmail.com>",
   "license": "MIT",
-  "repository": "rezzafr33/postcss-typography",
+  "repository": "rezzafr33/postcss-typography-js",
   "bugs": {
-    "url": "https://github.com/rezzafr33/postcss-typography/issues"
+    "url": "https://github.com/rezzafr33/postcss-typography-js/issues"
   },
-  "homepage": "https://github.com/rezzafr33/postcss-typography",
+  "homepage": "https://github.com/rezzafr33/postcss-typography-js",
   "dependencies": {
     "postcss": "^6.0.16",
     "typography": "^0.16.17"
