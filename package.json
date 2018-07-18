@@ -1,0 +1,40 @@
+{
+  "name": "postcss-typography",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for typography.js",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "typography",
+    "typography.js"
+  ],
+  "author": "Mochamad Taufan Rezzafri <rezzafri@gmail.com>",
+  "license": "MIT",
+  "repository": "rezzafr33/postcss-typography",
+  "bugs": {
+    "url": "https://github.com/rezzafr33/postcss-typography/issues"
+  },
+  "homepage": "https://github.com/rezzafr33/postcss-typography",
+  "dependencies": {
+    "postcss": "^6.0.16",
+    "typography": "^0.16.17"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
